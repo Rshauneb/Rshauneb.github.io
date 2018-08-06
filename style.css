@@ -10,15 +10,12 @@ body, html{
 
 
 .pimg1{
-  /* background-image: url("https://s26.postimg.cc/5rzp4a8nd/architecture-buildings-business-374870.jpg"); */
   background-image: url("https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* text-align: center; */
-  background-color: red;
   background-size: cover;
 }
 
@@ -66,4 +63,65 @@ body, html{
 
 .section{
   text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+background-color: #f4f4f4;
+color: #666;
+}
+.section-dark{
+background-color: #282e34;
+color: #ddd;
+}
+.mini-bio{
+  min-height: 400px;
+  width: 100%;
+  background-color: steelblue;
+  /* padding-top: 10px; */
+  font-size: 0;
+}
+
+.mini-bio .face{
+  width: 50%;
+  min-height: 100%;
+  background-color: red;
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.mini-bio .face-text{
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
+
+}
+
+.icons{
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+
+.icons ul li{
+  display: inline-block;
+  padding: 0 10px 5px 10px;
+  font-size: 22px;
+  color: #fff;
+  border-bottom: 2px solid #282e34;
+  transition: all .5s ease-in-out;
+}
+a:visited{
+color: #fff;
+}
+.icons ul li:hover{
+border-bottom: 2px solid #fff;
 }
